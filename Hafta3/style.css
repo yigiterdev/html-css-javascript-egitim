@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* TODO: Burayi sonradan degistir */
+
+/* body {
+    font-family: 'Open Sans', sans-serif;
+}*/
+body {
+  background: #000;
+  opacity: 0.6;
+  color: white;
+}
+
+p.text-blue {
+  color: blue;
+}
+
+.center {
+  text-align: center;
+}
+
+.lorem {
+  border: 2px solid white;
+  border-top: 5px solid yellow;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-style: dotted;
+
+  margin: 100px 50px;
+  padding: 50px;
+}
+
+h1,
+h2,
+p {
+  color: yellow;
+}
