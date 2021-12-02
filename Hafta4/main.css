@@ -1,0 +1,62 @@
+body {
+  position: relative;
+  height: 400vh;
+}
+
+.block-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+
+  height: 600px;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.spacing {
+  background-color: blueviolet;
+  height: 100px;
+  overflow: auto;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 7px;
+  transition: 1s all ease-in-out;
+}
+
+.button:hover {
+  background-color: red;
+  transition: 300ms all ease-in-out;
+}
+
+.position {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: blue;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}
