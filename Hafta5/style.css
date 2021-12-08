@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: blueviolet;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.item {
+  padding: 20px;
+  border: 1px solid white;
+  background-color: red;
+}
+
+.col-2,
+.col-9,
+.col {
+  background-color: chartreuse;
+}
